@@ -4,8 +4,7 @@ const Home = () => {
     return (
         <Container >
             <Box 
-            borderRadius="lg" 
-            color='white'
+            borderRadius="lg"
             bg='red' 
             p={3} 
             mb={6} 
