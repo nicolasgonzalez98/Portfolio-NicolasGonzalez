@@ -1,5 +1,8 @@
-import { Container, Box, Heading, Image, useColorModeValue } from '@chakra-ui/react'
+import NextLink from 'next/link'
+import { Container, Box, Heading, Image, useColorModeValue, Link, Button } from '@chakra-ui/react'
 import Section from '../components/section';
+import Paragraph from '../components/paragraph';
+import { ChevronRightIcon } from '@chakra-ui/icons';
 
 
 const Home = () => {
@@ -45,9 +48,27 @@ const Home = () => {
 
             <Section delay={0.1}>
                 <Heading as='h3' variant='section-title'>
-                    Work
+                    About me
                 </Heading>
-                <p>Paragraph</p>
+                <Paragraph>
+                    I love the world of technology, 
+                    I am passionate about solving programming problems and innovating code.
+
+                    I like other fields like cinema, exercising and sports. 
+                    I am currently looking for a job where I can put my skills and knowledge into practice to achieve great goals.
+                    I consider myself a lively, positive, cheerful and respectful person. These qualities have always helped me to work in a team in an excellent way.
+                    {/* <NextLink href='/works/inkdrop'>
+                        <Link>Inkdrop</Link>
+                    </NextLink> */}
+                </Paragraph>
+                <Box align='center' my={4}>
+                    <NextLink href='/works'>
+                        <Button
+                            rightIcon={<ChevronRightIcon />}
+                            colorScheme='teal'
+                        >Projects</Button>
+                    </NextLink>
+                </Box>
             </Section>
         </Container>
     )
