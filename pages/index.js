@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-import { Container, Box, Heading, Image, useColorModeValue, Link, Button } from '@chakra-ui/react'
+import { Container, Box, Heading, Image, useColorModeValue, Button } from '@chakra-ui/react'
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import { ChevronRightIcon } from '@chakra-ui/icons';
@@ -66,7 +66,9 @@ const Home = () => {
                         <Button
                             rightIcon={<ChevronRightIcon />}
                             colorScheme='teal'
-                        >Projects</Button>
+                        >
+                        Projects
+                        </Button>
                     </NextLink>
                 </Box>
             </Section>
