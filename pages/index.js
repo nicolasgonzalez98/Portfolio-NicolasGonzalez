@@ -98,12 +98,10 @@ const Home = () => {
                 </BioSection>
                 <BioSection>
                     <BioYear>2022</BioYear>
-                    
+                    I start my studies at SoyHenry Bootcamp for Full-Stack Developer. 
+                    In July I was certified as Full-stack Developer by soyHenry.
                 </BioSection>
-                <BioSection>
-                    <BioYear>2022</BioYear>
-                    
-                </BioSection>
+                
             </Section>
         </Container>
     )
