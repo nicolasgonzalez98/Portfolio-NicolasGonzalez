@@ -3,6 +3,8 @@ import { Container, Box, Heading, Image, useColorModeValue, Button } from '@chak
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import { ChevronRightIcon } from '@chakra-ui/icons';
+import { BioSection, BioYear } from '../components/bio';
+//import Link from 'next/link';
 
 
 const Home = () => {
@@ -71,6 +73,37 @@ const Home = () => {
                         </Button>
                     </NextLink>
                 </Box>
+            </Section>
+
+            <Section delay={0.2}>
+                <Heading as='h3' variant='section-title'>
+                    Bio
+                </Heading>
+                <BioSection>
+                    <BioYear>2019</BioYear>
+                    I start my studies in engineering at the FIUBA (Facultad de Ingenieria de la Universidad de Buenos Aires).
+                </BioSection>
+                <BioSection>
+                    <BioYear>2020</BioYear>
+                    The pandemic starts and I continue the university. I started to learn Python and love programming.
+                </BioSection>
+                <BioSection>
+                    <BioYear>2020</BioYear>
+                    I started my studies as Python Developer at 
+                    <a target='_blank' href='https://www.educacionit.com/carrera-python' rel="noreferrer"> Educacion IT</a>.
+                </BioSection>
+                <BioSection>
+                    <BioYear>2021</BioYear>
+                    I did my first job as developer for a glass startup. 
+                </BioSection>
+                <BioSection>
+                    <BioYear>2022</BioYear>
+                    
+                </BioSection>
+                <BioSection>
+                    <BioYear>2022</BioYear>
+                    
+                </BioSection>
             </Section>
         </Container>
     )
