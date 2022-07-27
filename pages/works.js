@@ -3,7 +3,7 @@ import Section from '../components/section'
 import { WorkGridItem } from "../components/grid-item";
 import Layout from '../components/layouts/article';
 //Aca vamos a importar las fotos
-import yo from '../public/images/nico_edit.jpg'
+import foods_work from '../public/images/APIFood/landing.jpg'
 
 const Works = () => {
     return (
@@ -17,9 +17,9 @@ const Works = () => {
                         <WorkGridItem 
                             id='api_foods' 
                             title='API-Food'
-                            thumbnail={yo}
+                            thumbnail={foods_work}
                         >
-                        In this application you will be able to see different food recipes, with their information.  
+                        In this application you will be able to see different food recipes, with their information. 
                         </WorkGridItem> 
                     </Section>
                 </SimpleGrid>
