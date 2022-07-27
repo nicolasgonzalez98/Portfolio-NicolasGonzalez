@@ -1,11 +1,17 @@
 import NextLink from 'next/link'
-import { Container, Box, Heading, Image, useColorModeValue, Button } from '@chakra-ui/react'
+import { Container, Box, Heading, Image, useColorModeValue, Button, SimpleGrid, List, ListItem, Link } from '@chakra-ui/react'
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import Layout from '../components/layouts/article';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import { BioSection, BioYear } from '../components/bio';
-//import Link from 'next/link';
+//import { GridItem } from '../components/grid-item';
+import {
+    IoLogoInstagram,
+    IoLogoGithub,
+    IoLogoLinkedin
+} from 'react-icons/io5'
+
 
 
 const Home = () => {
@@ -102,6 +108,37 @@ const Home = () => {
                         In July I was certified as Full-stack Developer by soyHenry.
                     </BioSection>
                     
+                </Section>
+
+                <Section delay={0.3}>
+                    <Heading as='h3' variant="section-title">
+                        On the web
+                    </Heading>
+                    <List>
+                        <ListItem>
+                            <Link href='https://github.com/nicolasgonzalez98' target='_blank'>
+                                <Button variant='ghost' colorScheme='teal' leftIcon={<IoLogoGithub />}>
+                                    @nicolasgonzalez98
+                                </Button>
+                            </Link>
+                        </ListItem>
+
+                        <ListItem>
+                            <Link href='https://www.linkedin.com/in/nicolasgonzalez98' target='_blank'>
+                                <Button variant='ghost' colorScheme='teal' leftIcon={<IoLogoLinkedin />}>
+                                    @nicolasgonzalez98
+                                </Button>
+                            </Link>
+                        </ListItem>
+
+                        <ListItem>
+                            <Link href='https://www.instagram.com/nico.ngonzalez' target='_blank'>
+                                <Button variant='ghost' colorScheme='teal' leftIcon={<IoLogoInstagram />}>
+                                    @nico.ngonzalez
+                                </Button>
+                            </Link>
+                        </ListItem>
+                    </List>
                 </Section>
             </Container>
         </Layout>

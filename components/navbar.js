@@ -15,25 +15,26 @@ import {
     useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
-//import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub } from 'react-icons/io5'
 import ThemeToggleButton from "./theme-toggle-button";
 
-const LinkItem = ({href, path, children}) => {
+const LinkItem = ({ href, path, target, children, ...props }) => {
     const active = path === href
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
-
     return (
-        <NextLink href={href} passHref scroll={false}>
-          <Link
-            p={2}
-            bg={active ? 'grassTeal' : undefined}
-            color={active ? '#202023' : inactiveColor}
-          >
-            {children}
-          </Link>
-        </NextLink>
-      )
-}
+      <NextLink href={href} passHref scroll={false}>
+        <Link
+          p={2}
+          bg={active ? 'grassTeal' : undefined}
+          color={active ? '#202023' : inactiveColor}
+          target={target}
+          {...props}
+        >
+          {children}
+        </Link>
+      </NextLink>
+    )
+  }
 
 
 const Navbar = props => {
@@ -76,13 +77,24 @@ const Navbar = props => {
                     >
                         Works
                     </LinkItem>
-                    <LinkItem 
+                    {/* <LinkItem 
                         href='/posts'
                         path={path}
                     >
                         Posts
+                    </LinkItem> */}
+                    <LinkItem
+                        target="_blank"
+                        href="https://github.com/nicolasgonzalez98"
+                        path={path}
+                        display="inline-flex"
+                        alignItems="center"
+                        style={{ gap: 4 }}
+                        pl={2}
+                    >
+                        <IoLogoGithub />
+                        Source
                     </LinkItem>
-                    
                 </Stack>
 
                 <Box flex={1} align='right'>
