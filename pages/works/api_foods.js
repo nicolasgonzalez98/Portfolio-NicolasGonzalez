@@ -26,7 +26,6 @@ const Work = () => {
                 update or delete this recipes.
                 <br />
                 <br />
-                <span style={{color:'red',fontWeight:'500'}}>NOTE:</span> The app have a little CORS problem in the deployment page. It will be fixed in the future.
             </P>
             <List ml={4} my={4}>
                 <ListItem>
@@ -44,6 +43,10 @@ const Work = () => {
                     <Link href='https://github.com/nicolasgonzalez98/pi-foods' target='_blank'>
                         GitHub <ExternalLinkIcon mx="2px" />
                     </Link>
+                </ListItem>
+                <ListItem>
+                    <Meta color='red'>Note</Meta>
+                    The app have a little CORS problem in the deployment page. It will be fixed in the future.
                 </ListItem>
             </List>
             <UnorderedList>
