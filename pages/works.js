@@ -28,7 +28,7 @@ const Works = () => {
                             title='Henry Games'
                             thumbnail={foods_work}
                         >
-
+                            This app is an E-Commerce and Community. You can buy Games for PC and make friends.
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
