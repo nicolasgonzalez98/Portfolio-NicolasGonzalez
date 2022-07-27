@@ -49,7 +49,7 @@ const Work = () => {
             <UnorderedList>
                 <ListItem>You can save recipes in yours favorite list.</ListItem>
                 <ListItem>You can create your own recipes.</ListItem>
-                <ListItem>Your recipes can be modified and deleted</ListItem>
+                <ListItem>Your recipess can be modified and deleted</ListItem>
             </UnorderedList>
             <br />
             <WorkImage src="/images/APIFood/home.jpg" alt="foods" />
