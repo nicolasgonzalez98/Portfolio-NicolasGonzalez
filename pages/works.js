@@ -22,6 +22,15 @@ const Works = () => {
                         In this application you will be able to see different food recipes, with their information. 
                         </WorkGridItem> 
                     </Section>
+                    <Section>
+                        <WorkGridItem
+                            id='henry_games'
+                            title='Henry Games'
+                            thumbnail={foods_work}
+                        >
+
+                        </WorkGridItem>
+                    </Section>
                 </SimpleGrid>
             </Container>
         </Layout>
