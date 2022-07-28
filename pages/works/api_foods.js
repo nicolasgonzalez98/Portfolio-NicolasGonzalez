@@ -15,7 +15,7 @@ import P from '../../components/paragraph'
 
 const Work = () => {
     return (
-        <Layout title='api_foods'>
+        <Layout title='API_Foods'>
             <Container>
                 <Title>Api-Foods <Badge>2022</Badge></Title>
             </Container>

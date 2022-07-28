@@ -4,6 +4,7 @@ import { WorkGridItem } from "../components/grid-item";
 import Layout from '../components/layouts/article';
 //Aca vamos a importar las fotos
 import foods_work from '../public/images/APIFood/landing.jpg'
+import henry_games from '../public/images/HenryGames/landing.jpg'
 
 const Works = () => {
     return (
@@ -26,7 +27,7 @@ const Works = () => {
                         <WorkGridItem
                             id='henry_games'
                             title='Henry Games'
-                            thumbnail={foods_work}
+                            thumbnail={henry_games}
                         >
                             This app is an E-Commerce and Community. You can buy Games for PC and make friends.
                         </WorkGridItem>
