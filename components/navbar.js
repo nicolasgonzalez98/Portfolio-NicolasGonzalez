@@ -77,12 +77,12 @@ const Navbar = props => {
                     >
                         Works
                     </LinkItem>
-                    {/* <LinkItem 
-                        href='/posts'
+                    <LinkItem 
+                        href='/certificates'
                         path={path}
                     >
-                        Posts
-                    </LinkItem> */}
+                        Certificates
+                    </LinkItem>
                     <LinkItem
                         target="_blank"
                         href="https://github.com/nicolasgonzalez98"
