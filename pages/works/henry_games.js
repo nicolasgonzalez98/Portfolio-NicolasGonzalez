@@ -23,8 +23,7 @@ const Work = () => {
 
             <P style={{color:useColorModeValue('black', 'cyan')}}>
             This application is an e-commerce and community.
-            You can buy PC games and join your friends. You can chat with your friends and meet new people!<br />
-            It has a blog where you can find out about all the news in the world of gaming
+            You can buy PC games and join your friends. You can chat with your friends and meet new people!
                 <br />
                 <br />
             </P>
