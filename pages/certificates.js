@@ -6,7 +6,7 @@ import {
 import Layout from "../components/layouts/article"
 //import img from '../public/images/certificados/desarrollo-web_page-0001.jpg'
 import ImageSlider from "../components/ImageSlider"
-import { SlideData } from "./SlideData";
+import { SlideData } from "../components/resources/SlideData";
 
 
 const Certificate = () => {
