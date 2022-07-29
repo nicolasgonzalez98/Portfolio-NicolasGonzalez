@@ -13,7 +13,7 @@ const ImageSlider = ({ slides }) => {
             <Heading color={color} as="h5" fontSize={15} mb={4}>
               {slide.title ? slide.title : 'Titulo'}
             </Heading>
-            <Image src={slide.image} height="auto" width="800px" />
+            <Image src={slide.image} alt={slide.title} height="auto" width="800px" />
           </>
         );
       })}
