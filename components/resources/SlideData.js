@@ -5,6 +5,7 @@ const dev_html = '/images/certificados/desarrollo-web_page-0001.jpg'
 const sql = '/images/certificados/sql_page-0001.jpg'
 const oop_intro = '/images/certificados/oopIntro.jpg'
 const js_begginers = '/images/certificados/js_for-begginers_page-0001.jpg'
+const web_design = '/images/certificados/maquetacion_web_page-0001.jpg'
 
 export const SlideData = [
     {
@@ -14,6 +15,10 @@ export const SlideData = [
     {
       image: python_programming,
       title: 'Python Programming'
+    },
+    {
+      image: web_design,
+      title: 'Web Design Layout'
     },
     {
       image:python_begginers,

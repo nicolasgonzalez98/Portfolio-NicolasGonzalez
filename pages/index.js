@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-import { Container, Box, Heading, Image, useColorModeValue, Button, /*SimpleGrid,*/ List, ListItem, Link } from '@chakra-ui/react'
+import { Container, Box, Heading, Image, useColorModeValue, Button, SimpleGrid, List, ListItem, Link } from '@chakra-ui/react'
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import Layout from '../components/layouts/article';
