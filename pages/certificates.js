@@ -18,13 +18,13 @@ const Certificate = () => {
     })
 
     return (
-        <Layout>
+        <Layout delay={0.3}>
             <Container>
-                <Section delay={0.3}>
+                <Section >
                     <Heading as='h3' fontSize={20} mb={4}>
                         Certificates
                     </Heading>
-                    <ImageSlider delay={0.3} slides={SlideData} />
+                    <ImageSlider slides={SlideData} />
                 </Section>
                 
             </Container>

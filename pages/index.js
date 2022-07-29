@@ -9,7 +9,8 @@ import { BioSection, BioYear } from '../components/bio';
 import {
     IoLogoInstagram,
     IoLogoGithub,
-    IoLogoLinkedin
+    IoLogoLinkedin,
+    IoMail
 } from 'react-icons/io5'
 
 
@@ -115,6 +116,13 @@ const Home = () => {
                         On the web
                     </Heading>
                     <List>
+                        <ListItem>
+                            <Link href='mailto:nicolasgonzalez470@gmail.com' target='_blank'>
+                                <Button variant='ghost' colorScheme='teal' leftIcon={<IoMail />}>
+                                    nicolasgonzalez470@gmail.com
+                                </Button>
+                            </Link>
+                        </ListItem>
                         <ListItem>
                             <Link href='https://github.com/nicolasgonzalez98' target='_blank'>
                                 <Button variant='ghost' colorScheme='teal' leftIcon={<IoLogoGithub />}>
