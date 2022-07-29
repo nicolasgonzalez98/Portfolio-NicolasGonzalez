@@ -8,9 +8,14 @@ import Layout from "../components/layouts/article"
 import ImageSlider from "../components/ImageSlider"
 import { SlideData } from "../components/resources/SlideData";
 import Section from "../components/section";
+import { useEffect } from "react";
 
 
 const Certificate = () => {
+
+    useEffect(() => {
+        return 
+    })
 
     return (
         <Layout>

@@ -6,7 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 const ImageSlider = ({ slides }) => {
   let color = useColorModeValue('gray.800', 'whiteAlpha.900')
   return (
-    <Carousel showThumbs={false} useKeyboardArrows infiniteLoop>
+    <Carousel useKeyboardArrows infiniteLoop>
       {slides.map((slide) => {
         return (
           <>
