@@ -79,14 +79,16 @@ const Home = () => {
                             Projects
                             </Button>
                         </NextLink>
-                        {/* <a href='/NicolasGonzalezCV.pdf' target='_blank'>
+                    </Box>
+                    <Box align='center' my={4}>
+                        <a href='/NicolasGonzalezCV.pdf' target='_blank'>
                             <Button
                                 rightIcon={<ChevronRightIcon />}
                                 colorScheme='teal'
                             >
                                 Download CV
                             </Button>
-                        </a> */}
+                        </a>
                     </Box>
                 </Section>
 
