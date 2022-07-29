@@ -80,16 +80,7 @@ const Home = () => {
                             </Button>
                         </NextLink>
                     </Box>
-                    <Box align='center' my={4}>
-                        <a href='/NicolasGonzalezCV.pdf' target='_blank'>
-                            <Button
-                                rightIcon={<ChevronRightIcon />}
-                                colorScheme='teal'
-                            >
-                                Download CV
-                            </Button>
-                        </a>
-                    </Box>
+                    
                 </Section>
 
                 <Section delay={0.2}>
@@ -118,7 +109,16 @@ const Home = () => {
                         I start my studies at SoyHenry Bootcamp for Full-Stack Developer. 
                         In July I was certified as Full-stack Developer by soyHenry.
                     </BioSection>
-                    
+                    <Box align='center' my={4}>
+                        <a href='/NicolasGonzalezCV.pdf' target='_blank'>
+                            <Button
+                                rightIcon={<ChevronRightIcon />}
+                                colorScheme='teal'
+                            >
+                                Download CV
+                            </Button>
+                        </a>
+                    </Box>
                 </Section>
 
                 <Section delay={0.3}>
