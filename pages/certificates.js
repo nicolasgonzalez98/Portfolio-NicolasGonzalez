@@ -24,7 +24,7 @@ const Certificate = () => {
                     <Heading as='h3' fontSize={20} mb={4}>
                         Certificates
                     </Heading>
-                    <ImageSlider slides={SlideData} />
+                    <ImageSlider delay={0.3} slides={SlideData} />
                 </Section>
                 
             </Container>
