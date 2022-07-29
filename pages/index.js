@@ -79,6 +79,14 @@ const Home = () => {
                             Projects
                             </Button>
                         </NextLink>
+                        {/* <a href='/NicolasGonzalezCV.pdf' target='_blank'>
+                            <Button
+                                rightIcon={<ChevronRightIcon />}
+                                colorScheme='teal'
+                            >
+                                Download CV
+                            </Button>
+                        </a> */}
                     </Box>
                 </Section>
 
@@ -113,7 +121,7 @@ const Home = () => {
 
                 <Section delay={0.3}>
                     <Heading as='h3' variant="section-title">
-                        On the web
+                        On the web &amp; certificates
                     </Heading>
                     <List>
                         <ListItem>
@@ -147,6 +155,16 @@ const Home = () => {
                             </Link>
                         </ListItem>
                     </List>
+                    <Box align='center' my={4}>
+                        <NextLink href='/certificates'>
+                            <Button
+                                rightIcon={<ChevronRightIcon />}
+                                colorScheme='teal'
+                            >
+                            Certificates
+                            </Button>
+                        </NextLink>
+                    </Box>
                 </Section>
             </Container>
         </Layout>
