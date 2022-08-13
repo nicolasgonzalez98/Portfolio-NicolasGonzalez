@@ -5,6 +5,7 @@ import Layout from '../components/layouts/article';
 //Aca vamos a importar las fotos
 import foods_work from '../public/images/APIFood/landing.jpg'
 import henry_games from '../public/images/HenryGames/landing.jpg'
+import rest_countries from '../public/images/Rest-countries/landing.jpg'
 
 const Works = () => {
     return (
@@ -30,6 +31,16 @@ const Works = () => {
                             thumbnail={henry_games}
                         >
                             This app is an E-Commerce and Community. You can buy Games for PC and make friends.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem
+                            id='rest_api_countries'
+                            title='Rest API Countries'
+                            thumbnail={rest_countries}
+                        >
+                            In this application you will be able to see the information of each 
+                            country, dependency, autonomous territory around the world.
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
