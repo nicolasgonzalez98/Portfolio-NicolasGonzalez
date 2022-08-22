@@ -6,6 +6,7 @@ const sql = '/images/certificados/sql_page-0001.jpg'
 const oop_intro = '/images/certificados/oopIntro.jpg'
 const js_begginers = '/images/certificados/js_for-begginers_page-0001.jpg'
 const web_design = '/images/certificados/maquetacion_web_page-0001.jpg'
+const website_budget = '/images/certificados/presupuesto_web_page-0001.jpg'
 
 export const SlideData = [
     {
@@ -39,5 +40,9 @@ export const SlideData = [
     {
       image:js_begginers,
       title:'JavaScript for Begginers'
+    },
+    {
+      image: website_budget,
+      title: 'Web Budget'
     }
   ];
