@@ -5,7 +5,9 @@ import Layout from '../components/layouts/article';
 //Aca vamos a importar las fotos
 import foods_work from '../public/images/APIFood/landing.jpg'
 import henry_games from '../public/images/HenryGames/landing.jpg'
-import r_p_scissors from '../public/images/'
+
+import rest_countries from '../public/images/Rest-countries/landing.jpg'
+
 
 const Works = () => {
     return (
@@ -35,10 +37,14 @@ const Works = () => {
                     </Section>
                     <Section>
                         <WorkGridItem
-                            id='rock_paper_scissors'
-                            title='Rock, Paper, Scissors'
+
+                            id='rest_api_countries'
+                            title='Rest API Countries'
+                            thumbnail={rest_countries}
                         >
-                            
+                            In this application you will be able to see the information of each 
+                            country, dependency, autonomous territory around the world.
+
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
