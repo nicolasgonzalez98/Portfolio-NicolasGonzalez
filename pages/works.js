@@ -5,6 +5,7 @@ import Layout from '../components/layouts/article';
 //Aca vamos a importar las fotos
 import foods_work from '../public/images/APIFood/landing.jpg'
 import henry_games from '../public/images/HenryGames/landing.jpg'
+import r_p_scissors from '../public/images/'
 
 const Works = () => {
     return (
@@ -30,6 +31,14 @@ const Works = () => {
                             thumbnail={henry_games}
                         >
                             This app is an E-Commerce and Community. You can buy Games for PC and make friends.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem
+                            id='rock_paper_scissors'
+                            title='Rock, Paper, Scissors'
+                        >
+                            
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
