@@ -6,7 +6,7 @@ import { ExternalLinkIcon } from "@chakra-ui/icons"
 
 const Work = () => {
     return (
-        <Layout>
+        <Layout title='REST-API Countries'>
             <Container>
                 <Title>Rest-API Countries <Badge>2022</Badge></Title>
             </Container>
