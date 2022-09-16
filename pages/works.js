@@ -5,8 +5,8 @@ import Layout from '../components/layouts/article';
 //Aca vamos a importar las fotos
 import foods_work from '../public/images/APIFood/landing.jpg'
 import henry_games from '../public/images/HenryGames/landing.jpg'
-
 import rest_countries from '../public/images/Rest-countries/landing.jpg'
+import rock_p_s from '../public/images/RockPaperScissors/portada.jpg'
 
 
 const Works = () => {
@@ -44,6 +44,17 @@ const Works = () => {
                         >
                             In this application you will be able to see the information of each 
                             country, dependency, autonomous territory around the world.
+
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem
+
+                            id='rock_paper_scissors'
+                            title='Rock, Paper, Scissors'
+                            thumbnail={rock_p_s}
+                        >
+                            I developed my own Rock, Paper, Scissors app with complex animations and styles.
 
                         </WorkGridItem>
                     </Section>
