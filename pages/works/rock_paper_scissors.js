@@ -37,7 +37,7 @@ const Work = () => {
             <UnorderedList>
                 <ListItem>Play Rock, Paper, Scissors against the computer</ListItem>
                 <ListItem>Maintain the state of the score after refreshing the browser (Future option)</ListItem>
-                <ListItem>View the optimal layout for the game depending on their device's screen size</ListItem>
+                <ListItem>View the optimal layout for the game depending on their device&apos;s screen size</ListItem>
             </UnorderedList>
             <br />
             <WorkImage src='/images/RockPaperScissors/home.jpg' />
