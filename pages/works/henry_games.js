@@ -31,8 +31,8 @@ const Work = () => {
             <List ml={4} my={4}>
                 <ListItem>
                     <Meta>Website</Meta>
-                    <Link href="https://henry-games-pg-beta.vercel.app/" target='_blank'>
-                    https://henry-games-pg-beta.vercel.app/ <ExternalLinkIcon mx="2px" />
+                    <Link href="https://henry-games-pg.vercel.app" target='_blank'>
+                    https://henry-games-pg.vercel.app <ExternalLinkIcon mx="2px" />
                     </Link>
                 </ListItem>
                 <ListItem>
