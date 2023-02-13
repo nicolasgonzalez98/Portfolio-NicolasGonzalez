@@ -14,7 +14,7 @@ const Works = () => {
         <Layout>
             <Container>
                 <Heading as='h3' fontSize={20} mb={4}>
-                    Works
+                    JavaScript and React
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section>
@@ -59,6 +59,11 @@ const Works = () => {
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
+            </Container>
+            <Container>
+                <Heading as='h3' fontSize={20} mb={4}>
+                    Python
+                </Heading>
             </Container>
         </Layout>
     )
