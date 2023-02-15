@@ -7,8 +7,13 @@ const oop_intro = '/images/certificados/oopIntro.jpg'
 const js_begginers = '/images/certificados/js_for-begginers_page-0001.jpg'
 const web_design = '/images/certificados/maquetacion_web_page-0001.jpg'
 const website_budget = '/images/certificados/presupuesto_web_page-0001.jpg'
+const django_delevoper = '/images/certificados/Certificado-Desarrollo-Web-en-Python-&-Django-EducaciónIT.jpeg'
 
 export const SlideData = [
+    {
+      image: django_delevoper,
+      title: 'Django Developer'
+    },
     {
       image: soyHenry,
       title:'Full Stack Developer'
@@ -45,4 +50,5 @@ export const SlideData = [
       image: website_budget,
       title: 'Web Budget'
     }
+    
   ];
