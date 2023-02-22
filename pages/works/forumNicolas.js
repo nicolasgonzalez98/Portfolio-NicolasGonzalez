@@ -6,7 +6,6 @@ import {
     ListItem,
     useColorModeValue,
     UnorderedList,
-    //SimpleGrid
 } from '@chakra-ui/react';
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -18,7 +17,7 @@ import P from '../../components/paragraph'
 
 const Work = () => {
     return (
-        <Layout>
+    <Layout title={'Nicola’s Forum'}>
             <Container>
                 <Title>Nicola&rsquo;s Forum <Badge>2023</Badge></Title>
             </Container>
