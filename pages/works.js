@@ -7,6 +7,8 @@ import foods_work from '../public/images/APIFood/landing.jpg'
 import henry_games from '../public/images/HenryGames/landing.jpg'
 import rest_countries from '../public/images/Rest-countries/landing.jpg'
 import rock_p_s from '../public/images/RockPaperScissors/portada.jpg'
+import forum_p from '../public/images/forumNicolas/portada.png'
+
 
 
 const Works = () => {
@@ -60,10 +62,20 @@ const Works = () => {
                     </Section>
                 </SimpleGrid>
             </Container>
-            <Container>
+            <Container mb={10}>
                 <Heading as='h3' fontSize={20} mb={4}>
                     Python
                 </Heading>
+                <SimpleGrid columns={[1,1,2]} gap={6}>
+                    <WorkGridItem
+                        id='forumNicolas'
+                        title="Nicola's forum"
+                        thumbnail={forum_p}
+                    >
+                        Forum developed with Django. My first project with this framework.
+
+                    </WorkGridItem>
+                </SimpleGrid>
             </Container>
         </Layout>
     )
