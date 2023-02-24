@@ -9,7 +9,7 @@ import rest_countries from '../public/images/Rest-countries/landing.jpg'
 import rock_p_s from '../public/images/RockPaperScissors/portada.jpg'
 import forum_p from '../public/images/forumNicolas/portada.png'
 import portada_calc from '../public/images/CalorieCalc/portada.jpg'
-
+import decor_p from '../public/images/presupuestosMauri/portada.jpg'
 
 const Works = () => {
     return (
@@ -19,6 +19,15 @@ const Works = () => {
                     JavaScript and React
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap={6}>
+                    <Section>
+                        <WorkGridItem 
+                            id='presupuestos_mauri' 
+                            title='DecorGlass presupuestos'
+                            thumbnail={decor_p}
+                        >
+                        This is my first professional work.
+                        </WorkGridItem> 
+                    </Section>
                     <Section>
                         <WorkGridItem 
                             id='api_foods' 
