@@ -8,7 +8,7 @@ import henry_games from '../public/images/HenryGames/landing.jpg'
 import rest_countries from '../public/images/Rest-countries/landing.jpg'
 import rock_p_s from '../public/images/RockPaperScissors/portada.jpg'
 import forum_p from '../public/images/forumNicolas/portada.png'
-
+import portada_calc from '../public/images/CalorieCalc/portada.jpg'
 
 
 const Works = () => {
@@ -67,14 +67,26 @@ const Works = () => {
                     Python
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap={6}>
-                    <WorkGridItem
-                        id='forumNicolas'
-                        title="Nicola's forum"
-                        thumbnail={forum_p}
-                    >
-                        Forum developed with Django. My first project with this framework.
+                    <Section>
+                        <WorkGridItem
+                            id='forumNicolas'
+                            title="Nicola's forum"
+                            thumbnail={forum_p}
+                        >
+                            Forum developed with Django. My first project with this framework.
 
-                    </WorkGridItem>
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem
+                            id='calorie_calc'
+                            title="Calorie Calculator"
+                            thumbnail={portada_calc}
+                        >
+                            CalorieCalculator developed with Django. 
+
+                        </WorkGridItem>
+                    </Section>
                 </SimpleGrid>
             </Container>
         </Layout>
