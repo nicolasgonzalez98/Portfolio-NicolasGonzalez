@@ -16,16 +16,16 @@ const Works = () => {
         <Layout>
             <Container>
                 <Heading as='h3' fontSize={20} mb={4}>
-                    JavaScript and React
+                    JavaScript y React
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section>
                         <WorkGridItem 
                             id='presupuestos_mauri' 
-                            title='DecorGlass presupuestos'
+                            title='DecorGlass Presupuestos'
                             thumbnail={decor_p}
                         >
-                        This is my first professional work.
+                        Este es mi primer trabajo profesional.
                         </WorkGridItem> 
                     </Section>
                     <Section>
@@ -34,7 +34,7 @@ const Works = () => {
                             title='API-Food'
                             thumbnail={foods_work}
                         >
-                        In this application you will be able to see different food recipes, with their information. 
+                        En esta aplicación se pueden observar distintas recetas con su respectiva información. 
                         </WorkGridItem> 
                     </Section>
                     <Section>
@@ -43,7 +43,7 @@ const Works = () => {
                             title='Henry Games'
                             thumbnail={henry_games}
                         >
-                            This app is an E-Commerce and Community. You can buy Games for PC and make friends.
+                            Esta app es un E-Commerce y Comunidad. Se pueden comprar juegos de PC y hacer amigos.
                         </WorkGridItem>
                     </Section>
                     <Section>
@@ -53,8 +53,7 @@ const Works = () => {
                             title='Rest API Countries'
                             thumbnail={rest_countries}
                         >
-                            In this application you will be able to see the information of each 
-                            country, dependency, autonomous territory around the world.
+                            En esta aplicación vas a poder ver la información de cada país, dependencia, territorio autonomo de alrededor del mundo.
 
                         </WorkGridItem>
                     </Section>
@@ -65,7 +64,7 @@ const Works = () => {
                             title='Rock, Paper, Scissors'
                             thumbnail={rock_p_s}
                         >
-                            I developed my own Rock, Paper, Scissors app with complex animations and styles.
+                            Desarrollé mi propio Piedra, Papel o Tijera con animaciones y estilos complejos.
 
                         </WorkGridItem>
                     </Section>
@@ -82,7 +81,7 @@ const Works = () => {
                             title="Nicola's forum"
                             thumbnail={forum_p}
                         >
-                            Forum developed with Django. My first project with this framework.
+                            Foro desarrollado con Django. Mi primer proyecto con este framework.
 
                         </WorkGridItem>
                     </Section>
@@ -92,7 +91,7 @@ const Works = () => {
                             title="Calorie Calculator"
                             thumbnail={portada_calc}
                         >
-                            CalorieCalculator developed with Django. 
+                            Calculadora de calorias desarrollada con Django. 
 
                         </WorkGridItem>
                     </Section>

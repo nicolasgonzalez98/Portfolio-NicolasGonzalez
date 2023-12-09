@@ -3,7 +3,7 @@ import { Box } from '@chakra-ui/react'
 const Footer = () => {
   return (
     <Box align="center" opacity={0.4} fontSize="sm">
-      &copy; {new Date().getFullYear()} Nicolás González. Thanks Takuya Matsuyama for the web design.
+      &copy; {new Date().getFullYear()} Nicolás González. Gracias Takuya Matsuyama por el diseño web.
     </Box>
   )
 }

@@ -75,13 +75,13 @@ const Navbar = props => {
                         href='/works'
                         path={path}
                     >
-                        Works
+                        Proyectos
                     </LinkItem>
                     <LinkItem 
                         href='/certificates'
                         path={path}
                     >
-                        Certificates
+                        Certificados
                     </LinkItem>
                     <LinkItem
                         target="_blank"
@@ -93,7 +93,7 @@ const Navbar = props => {
                         pl={2}
                     >
                         <IoLogoGithub />
-                        Source
+                        GitHub
                     </LinkItem>
                 </Stack>
 
@@ -112,20 +112,20 @@ const Navbar = props => {
                             />
                             <MenuList>
                                 <NextLink href="/" passHref>
-                                    <MenuItem as={Link}>About</MenuItem>
+                                    <MenuItem as={Link}>Home Page</MenuItem>
                                 </NextLink>
                                 <NextLink href="/works" passHref>
-                                    <MenuItem as={Link}>Works</MenuItem>
+                                    <MenuItem as={Link}>Trabajos</MenuItem>
                                 </NextLink>
                                 <NextLink href="/certificates" passHref>
-                                    <MenuItem as={Link}>Certificates</MenuItem>
+                                    <MenuItem as={Link}>Certificados</MenuItem>
                                 </NextLink>
                                 <MenuItem
                                 target='_blank'
                                 as={Link}
                                 href="https://github.com/nicolasgonzalez98"
                                 >
-                                    View GitHub
+                                    Ver GitHub
                                 </MenuItem>
                             </MenuList>
 

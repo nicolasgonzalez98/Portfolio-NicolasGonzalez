@@ -22,7 +22,7 @@ const Certificate = () => {
             <Container>
                 <Section >
                     <Heading as='h3' fontSize={20} mb={4}>
-                        Certificates
+                        Certificados
                     </Heading>
                     <ImageSlider slides={SlideData} />
                 </Section>

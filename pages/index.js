@@ -26,7 +26,7 @@ const Home = () => {
                 mb={6} 
                 align='center'
                 >
-                    Hello I&apos;m a full-stack developer based in Buenos Aires, Argentina! 
+                    Soy un desarrollador full stack que vive en Buenos Aires, Argentina! 
                 </Box>
 
                 <Box display={{md:'flex'}}>
@@ -59,15 +59,12 @@ const Home = () => {
 
                 <Section delay={0.1}>
                     <Heading as='h3' variant='section-title'>
-                        About me
+                        Sobre mi
                     </Heading>
                     <Paragraph>
-                        I love the world of technology, 
-                        I am passionate about solving programming problems and innovating code.
-
-                        I like other fields like cinema, exercising and sports. 
-                        I am currently looking for a job where I can put my skills and knowledge into practice to achieve great goals.
-                        I consider myself a lively, positive, cheerful and respectful person. These qualities have always helped me to work in a team in an excellent way.
+                        Soy un estudiante de ingenieria en sistemas y desarrollo de Software. 
+                        Actualmente trabajo en AA2000 como Soporte de campo y desarrollo.
+                        Actualmente estoy buscando oportunidades para aplicar mis habilidades técnicas y de resolución de problemas en un entorno de desarrollo dinámico.
                         
                     </Paragraph>
                     <Box align='center' my={4}>
@@ -76,7 +73,7 @@ const Home = () => {
                                 rightIcon={<ChevronRightIcon />}
                                 colorScheme='teal'
                             >
-                            Projects
+                            Proyectos
                             </Button>
                         </NextLink>
                     </Box>
@@ -85,29 +82,38 @@ const Home = () => {
 
                 <Section delay={0.2}>
                     <Heading as='h3' variant='section-title'>
-                        Bio
+                        Biografia
                     </Heading>
                     <BioSection>
                         <BioYear>2019</BioYear>
-                        I start my studies in engineering at the FIUBA (Facultad de Ingenieria de la Universidad de Buenos Aires).
+                        Empiezo mis estudios de ingeniera en sistemas en la FIUBA.
                     </BioSection>
                     <BioSection>
                         <BioYear>2020</BioYear>
-                        The pandemic starts and I continue the university. I started to learn Python and love programming.
+                        Empieza la pandemia y sigo mis estudios en programación. Arranco mis estudios en Python.
                     </BioSection>
                     <BioSection>
                         <BioYear>2020</BioYear>
-                        I started my studies as Python Developer at 
+                        Empiezo a estudiar para Desarrollador Python en
                         <a target='_blank' href='https://www.educacionit.com/carrera-python' rel="noreferrer"> Educacion IT</a>.
                     </BioSection>
                     <BioSection>
                         <BioYear>2021</BioYear>
-                        I did my first job as developer for a glass startup. 
+                        Realizo mi primer trabajo como desarrollador para un micro-emprendimiento de vidrios. 
                     </BioSection>
                     <BioSection>
                         <BioYear>2022</BioYear>
-                        I start my studies at SoyHenry Bootcamp for Full-Stack Developer. 
-                        In July I was certified as Full-stack Developer by soyHenry.
+                        Empiezo mis estudios en SoyHenry BootCamp para Full-Stack Developer. 
+                        Termino en Julio.<br/>
+                        Empiezo a trabajar como Soporte de campo en AA2000.
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2023</BioYear>
+                        Empiezo mis estudios como Desarrollador de Softwareen IFTS N°11. Apruebo 8 materias en el año.
+                        <br/>
+                        Realizo mi primer desarrollo por iniciativa propia en AA2000. Desarrollo una aplicacion para controlar el stock de mi equipo de trabajo.
+                        Empiezo a trabajar como Soporte de Desarrollo para AA2000.
+
                     </BioSection>
                     <Box align='center' my={4}>
                         <a href='/NicolasGonzalezCV.pdf' target='_blank'>
@@ -115,7 +121,7 @@ const Home = () => {
                                 rightIcon={<ChevronRightIcon />}
                                 colorScheme='teal'
                             >
-                                Download CV
+                                Descargar CV
                             </Button>
                         </a>
                     </Box>
@@ -123,7 +129,7 @@ const Home = () => {
 
                 <Section delay={0.3}>
                     <Heading as='h3' variant="section-title">
-                        On the web &amp; certificates
+                        Contacto & certificados
                     </Heading>
                     <List>
                         <ListItem>
@@ -149,13 +155,7 @@ const Home = () => {
                             </Link>
                         </ListItem>
 
-                        <ListItem>
-                            <Link href='https://www.instagram.com/nico.ngonzalez' target='_blank'>
-                                <Button variant='ghost' colorScheme='teal' leftIcon={<IoLogoInstagram />}>
-                                    @nico.ngonzalez
-                                </Button>
-                            </Link>
-                        </ListItem>
+                        
                     </List>
                     <Box align='center' my={4}>
                         <NextLink href='/certificates'>
@@ -163,7 +163,7 @@ const Home = () => {
                                 rightIcon={<ChevronRightIcon />}
                                 colorScheme='teal'
                             >
-                            Certificates
+                            Certificados
                             </Button>
                         </NextLink>
                     </Box>

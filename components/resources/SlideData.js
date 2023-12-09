@@ -12,11 +12,11 @@ const django_delevoper = '/images/certificados/Certificado-Desarrollo-Web-en-Pyt
 export const SlideData = [
     {
       image: django_delevoper,
-      title: 'Django Developer'
+      title: 'Desarrollador Django'
     },
     {
       image: soyHenry,
-      title:'Full Stack Developer'
+      title:'Desarrollador Full Stack'
     },
     {
       image: python_programming,
@@ -24,31 +24,31 @@ export const SlideData = [
     },
     {
       image: web_design,
-      title: 'Web Design Layout'
+      title: 'Maquetacion Web'
     },
     {
       image:python_begginers,
-      title: 'Python for begginers'
+      title: 'Python para principiantes'
     },
     {
       image:dev_html,
-      title:'Web development HTML'
+      title:'Desarrollo web con HTML'
     },
     {
       image:sql,
-      title: 'Databases and SQL Intro'
+      title: 'Introduccion a base de datos y SQL'
     },
     {
       image:oop_intro,
-      title:'OOP Intro'
+      title:'Introduccion a POO'
     },
     {
       image:js_begginers,
-      title:'JavaScript for Begginers'
+      title:'JavaScript para principiantes.'
     },
     {
       image: website_budget,
-      title: 'Web Budget'
+      title: 'Presupuestos Web'
     }
     
   ];
